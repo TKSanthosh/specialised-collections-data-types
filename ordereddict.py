@@ -7,3 +7,5 @@ d[3]= 'n'
 print(d)
 print(d.keys())
 print(d.values())
+d[1]= 'p'
+print(d)
