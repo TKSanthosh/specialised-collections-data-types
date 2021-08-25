@@ -5,5 +5,6 @@ d= deque(a)
 print(d)
 d.appendleft("hello")
 print(d)
-d.popleft()
+
+d.pop()
 print(d)
