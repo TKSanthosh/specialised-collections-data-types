@@ -40,8 +40,9 @@ for x in a[1:6]:
     print(x)
 
 print("\nwhile loop")
-f=0
-while f<len(a):
-    print(a[f])
-    f=f+1
+l=len(a)
+temp=0
 
+while temp<3:
+    print(a[temp])
+    temp+=1
